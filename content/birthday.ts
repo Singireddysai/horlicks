@@ -20,7 +20,7 @@ export const birthday = {
   heroNote: "I made you a tiny world. It is full of things that remind me of you.",
   audioSrc: "/songs/feel-it.mp3",
   audioStartTime: 25, // Song starts at 25 seconds
-  audioVolume: 0.07, // Low gentle background volume (adjust between 0.0 and 1.0)
+  audioVolume: 1, // The deployed MP3 is pre-attenuated to 7% for consistent iPhone volume
   videos: [
     {
       id: "smile",
