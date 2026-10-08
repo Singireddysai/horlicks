@@ -1,0 +1,15 @@
+node_modules/
+.next/
+out/
+.vercel/
+*.log
+.qa/
+.DS_Store
+next-env.d.ts
+
+# Local source media; deploy the optimized copies from public/ only.
+/pictures/
+/cute_images/
+/songs/
+public/songs/*
+!public/songs/feel-it.mp3
